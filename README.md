@@ -1,6 +1,6 @@
 # WASM fix for Cross Compilation in Windows
 
-For why the fix works see ```Notes.txt```. Also, this issue was raised in the LLVM Project at https://github.com/llvm/llvm-project/issues/116552
+For why the fix works see ```Notes.txt```. Also, this issue was raised in the LLVM Project at https://github.com/llvm/llvm-project/issues/116552 and fixed at https://github.com/llvm/llvm-project/pull/116874
 
 Steps:
 
