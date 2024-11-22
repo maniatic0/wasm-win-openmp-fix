@@ -30,7 +30,8 @@ call emcmake cmake ^
     -B %BUILD_DIR% ^
     -S %OPENMP_DIR%
 
-python %~dp0\fix_kmp_i18n_default.py
+rem No longer needed as of https://github.com/llvm/llvm-project/pull/116874
+rem python %~dp0\fix_kmp_i18n_default.py
 
 call emmake cmake --build %BUILD_DIR% --config Release
 call emmake cmake --install %BUILD_DIR% --config Release
